@@ -37,23 +37,23 @@ h1, h2 {
 
 .card p {
   margin: 0 0 12px;
-  color: #5c6075;
+  color: #000000;
 }
 
 .preco {
   font-weight: bold;
-  color: #1a73c9;
+  color: #4496e4;
   margin-right: 12px;
 }
 
 .card:hover {                                   /* HOVER */
   transform: translateY(-6px);
   box-shadow: 0 12px 24px rgba(43, 45, 66, 0.18);
-  border-color: #f68e36;
+  border-color: #7c502d;
 }
 
 .card:hover h4 {                                /* HOVER no pai muda o filho */
-  color: #b85309;
+  color: #9b6843;
 }
 
 /* ===== Botões ===== */
@@ -76,7 +76,7 @@ h1, h2 {
 }
 
 .botao:focus-visible {                          /* FOCO pelo teclado */
-  outline: 3px solid #1a73c9;
+  outline: 3px solid #adc9e4;
   outline-offset: 3px;
 }
 
@@ -100,7 +100,7 @@ label {
   box-sizing: border-box;
   margin: 6px 0 12px;
   padding: 12px 14px;
-  border: 2px solid #fab875;
+  border: 2px solid #643e19;
   border-radius: 8px;
   font-size: 16px;
   font-family: inherit;
