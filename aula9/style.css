@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2b1b3d; 
+    color: #F4F4F9; 
+}
+
+main{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 16px;     
+}
+
+h1{
+    color: #FF6B00; 
+}
+
+.card{
+    background-color: #121212; 
+    border: 2px solid #FF6B00; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 14px 16px;
+}
+
+.card h4{
+    margin: 0 0 10px 0;
+    color: #F4F4F9; 
+}
+
+.card p{
+    margin: 0;
+    color: #C5A059; 
+}
+
+.destaque{
+    background-color: #FF6B00; 
+    color: #ffffff;
+}
+
+.destaque h4, .destaque p{
+    color: #ffffff;
+}
+
+.esgotado{
+    opacity: 0.5;
+}
+
+.esgotado h4{
+    text-decoration: line-through;
+}
+
+#promocao h4{
+    background-color: #d4ff14; 
+    border: none;
+    color: #121212; 
+    padding: 4px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#promocao p{
+    color: #d4ff14; 
+}
